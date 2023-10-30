@@ -45,13 +45,13 @@ p {
   gap: 8px;
 }
 
-/* primary-btn */
-.primary-btn {
+/*.btn.btn-primary */
+.btn.btn-primary {
   display: inline-block;
   padding: 0.75rem 1.2rem;
-  font-size: 0.95rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   border: 1px solid #e9ecef;
   background-color: #f8f9fa;
   color: #202223;
@@ -59,7 +59,7 @@ p {
   cursor: pointer;
 }
 
-.primary-btn:hover {
+.btn.btn-primary:hover {
   /* Hover Styles */
   background-color: #e9ecef;
   border-color: #d3d9de;
@@ -68,7 +68,7 @@ p {
 }
 
 .header-status-logo .navbar-brand {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 900;
   color: #202223;
 }
