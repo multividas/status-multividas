@@ -4,7 +4,8 @@
   "description": "Multividas systems operations status",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "grunt concat-css && grunt cssmin"
   },
   "repository": {
     "type": "git",
