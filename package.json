@@ -1,29 +1,28 @@
 {
-  "name": "status-multividas",
+  "name": "multividas.github.io",
+  "private": true,
   "version": "1.0.0",
   "description": "Multividas systems operations status",
+  "keywords": [
+    "multividas",
+    "multividas blogs",
+    "multividas threads",
+    "multividas api documentation"
+  ],
+  "author": "soulaimane yahya <contact@soulaimaneyahya.com> (https://soulaimaneyahya.com/)",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "grunt concat-css && grunt cssmin"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/multividas/status-multividas.git"
-  },
-  "keywords": [
-    "multividas",
-    "status-page"
-  ],
-  "author": "soulaimane yahya",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/multividas/status-multividas/issues"
-  },
-  "homepage": "https://github.com/multividas/status-multividas#readme",
   "dependencies": {
     "grunt": "^1.5.3",
     "grunt-contrib-concat": "^2.1.0",
     "grunt-contrib-cssmin": "^4.0.0"
+  },
+  "engines": {
+    "nvm": "18",
+    "node": "^18"
   }
 }

@@ -48,7 +48,7 @@ p {
 /*.btn.btn-primary */
 .btn.btn-primary {
   display: inline-block;
-  padding: 0.75rem 1.2rem;
+  padding-top: .5rem 1rem !important;
   font-size: 0.8rem;
   font-weight: 600;
   border-radius: 1rem;
