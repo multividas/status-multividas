@@ -3,8 +3,8 @@
 Multividas systems operations status
 
 ```grunt build
-nvm use v16.20.2 &&  grunt concat-css
-nvm use v16.20.2 &&  grunt cssmin
+nvm use v18 &&  grunt concat-css
+nvm use v18 &&  grunt cssmin
 ```
 
 ----- 
